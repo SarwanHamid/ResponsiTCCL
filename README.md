@@ -26,7 +26,7 @@ Didalam kedua server tersebut telah terinstall openssh dan docker
 6.	Kemudian masuk ke folder /usr/share/nginx/html
 7.	Kemudian letakkan file website yang akan digunakan di folder ini. Disini kami mengambil dari github dengan repo dari zthomaz
 8.	Untuk mengecek port service yang berjalan yaitu dengan mengetikkan sudo docker inspect [nama service] maka akan terlihat port yang sedang berjalan
-9.	Untuk mencoba website buka browser dan akses IP public berserta port yang berjalan dari server awsnya pada server saya yaitu http://18.218.114.139:80 maka akan terlihat :
+9.	Untuk mencoba website buka browser dan akses IP public berserta port yang berjalan dari server awsnya pada server saya yaitu http://18.218.114.39:80
 10.	Selanjutnya kita mencoba untuk membuat service scale 5 yaitu dengan mengetikkan perintah sudo docker service scale nginx=5
 11.	Untuk melihat service yang berjalan sudo docker service ls
 12.	Selanjutnya untuk melihat container berjalan di Manager dan di worker dengan mengetikan docker ps
