@@ -1,24 +1,23 @@
 # <b>ResponsiTCCL</b>
 
-Docker swarm
-•	Dengan menggunakan virtualbox, buat 2 buah server yang nantinya akan digunakan sebagai server manager dan server worker
-•	Didalam kedua server tersebut telah terinstall openssh dan docker
+<li>
+Dengan menggunakan virtualbox, buat 2 buah server yang nantinya akan digunakan sebagai server manager dan server worker
+Didalam kedua server tersebut telah terinstall openssh dan docker
+</li>
 
-Remote server
+<b>Remote server</b>
 1.	Untuk melakukan remote server, kami menggunakan openssh. Untuk mengecek apakah sudah terinstall ssh atau belum gunakan perintah sudo dpkg -l |grep ssh
- 
-2.	Kemudian cek apakah ssh sudah aktif atau belum
- Terlihat bahwa port 22 sudah aktif, itu berarti server bisa diremote menggunakan ssh.
+2.	Kemudian cek apakah ssh sudah aktif atau belum. Terlihat bahwa port 22 sudah aktif, itu berarti server bisa diremote menggunakan ssh.
 
-Remote server manager
+<b>Remote server manager</b>
 1.	Cek ip server manager
 2.	Remote server manager
 
-Remote server worker
+<b>Remote server worker</b>
 1.	Cek ip server worker
 2.	Remote server worker
 
-Konfigurasi server
+<b>Konfigurasi server</b>
 1.	Inisialisasi docker swarm di server manager
 2.	Inisialisasi docker swarm di server worker
 3.	Install nginx
