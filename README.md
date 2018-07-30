@@ -1,9 +1,7 @@
 # <b>ResponsiTCCL</b>
 
-<li>
-Dengan menggunakan virtualbox, buat 2 buah server yang nantinya akan digunakan sebagai server manager dan server worker
-Didalam kedua server tersebut telah terinstall openssh dan docker
-</li>
+<li>Dengan menggunakan virtualbox, buat 2 buah server yang nantinya akan digunakan sebagai server manager dan server worker</li>
+<li>Didalam kedua server tersebut telah terinstall openssh dan docker</li>
 
 <b>Remote server</b>
 1.	Untuk melakukan remote server, kami menggunakan openssh. Untuk mengecek apakah sudah terinstall ssh atau belum gunakan perintah sudo dpkg -l |grep ssh
